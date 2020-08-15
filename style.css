@@ -1,0 +1,97 @@
+.navbar{
+    text-align: right;
+}
+
+body{
+    background: #F5F5F5;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 25rem;
+    align-content:center;
+    display:flex;
+    flex-direction: column;
+
+}
+
+fieldset{
+    border: 0;
+    padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.form label{
+    display: block;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid #2d2e3a71;
+    background: white;
+}
+.form input{
+    width: 100%;
+}
+.form legend{
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+.form .description{
+    font-size: 12px;
+    text-align: center;
+}
+.form label{
+    padding: 10px;
+}
+
+.createBtn{
+    margin-top: 10px;
+    width:100%;
+    background-color: #0099FF;
+    color:white;
+    padding: 10px;
+}
+
+.callmsg{
+    font-size: 0.75em;
+}
+
+.privacy-statement{
+    font-size: 0.75em;
+    text-align:center;
+}
+
+.form-footer{
+    font-size: 0.75em;
+    text-align:center;
+    background-color:#D3D3D3;
+    bottom: 0;
+    position: relative;
+    width: 33.3em;
+}
+
+footer{
+    text-align:center;
+}
+
+footer a{
+    text-decoration:none;
+}
+
+footer ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+footer li{
+    padding: 10px;
+}
